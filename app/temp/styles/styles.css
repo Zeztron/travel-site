@@ -473,3 +473,7 @@ img {
   width: 100%;
   text-align: center;
 }
+
+.large-hero__title {
+  font-weight: 300;
+}
