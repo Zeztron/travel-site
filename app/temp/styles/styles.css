@@ -697,6 +697,7 @@ a {
 .generic-content-container p {
     line-height: 1.65;
     margin: 1rem 0;
+    font-weight: 300;
   }
 
 @media (min-width: 530px) {
