@@ -31,7 +31,7 @@ yarn install
 * [postcss](https://postcss.org/)
 * [babel](https://babeljs.io/)
 * [jquery](https://jquery.com/)
-* [waypoints] (http://imakewebthings.com/waypoints/)
+* [waypoints](http://imakewebthings.com/waypoints/)
 
 etc...
 
