@@ -20,6 +20,10 @@
   }
 
   &--get-in-touch {
+    transition: .3s;
+  }
+
+  &--get-in-touch:hover {
     box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
   }
 }
