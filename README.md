@@ -6,7 +6,7 @@
 To see the app in action, go to [https://zeztron.github.io/travel-site/](https://zeztron.github.io/travel-site/)
 
 ## Features
-(still editing)
+(editing in-progress)
 
 ## Getting Started
 Feel free to clone this repository
@@ -26,3 +26,4 @@ yarn install
 ```
 
 ## Built-with
+(editing in-progress)
