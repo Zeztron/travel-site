@@ -567,6 +567,11 @@ a {
   }
 
 .btn--get-in-touch {
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+
+.btn--get-in-touch:hover {
     -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
             box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
   }
@@ -1353,8 +1358,6 @@ edit gulp/templates/sprite.css */
     display: block;
     padding: 7px 10px;
     font-size: .8rem;
-    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
-            box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
     background-color: rgba(47,85,114, .5);
   }
 
@@ -1369,6 +1372,10 @@ edit gulp/templates/sprite.css */
       .primary-nav a.is-current-link {
         color: #fabb69;
       }
+  }
+
+.primary-nav a:hover {
+    color: #d59541;
   }
 
 .reveal-item {

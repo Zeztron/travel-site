@@ -45,7 +45,6 @@
     display: block;
     padding: 7px 10px;
     font-size: .8rem;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
     background-color: rgba($mainBlue, .5);
 
     @mixin atMedium {
@@ -57,5 +56,9 @@
         color: #fabb69;
       }
     }
+  }
+
+  a:hover {
+    color: $mainOrange;
   }
 }
