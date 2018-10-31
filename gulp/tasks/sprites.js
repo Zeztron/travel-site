@@ -5,6 +5,11 @@ var gulp      = require("gulp"),
     svgSprite = require("gulp-svg-sprite");
 
 var config = {
+  shape: {
+    spacing: {
+      padding: 1
+    }
+  },
   mode: {
     css: {
       variables: {
