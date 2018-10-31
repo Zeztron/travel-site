@@ -7,6 +7,9 @@
 ## Live Demo
 To see the app in action, go to [https://zeztron.github.io/travel-site/](https://zeztron.github.io/travel-site/)
 
+## Technical Features
+(editing in-progress)
+
 ## Getting Started
 Feel free to clone this repository
 ```sh
@@ -32,7 +35,6 @@ yarn install
 * [babel](https://babeljs.io/)
 * [jquery](https://jquery.com/)
 * [waypoints](http://imakewebthings.com/waypoints/)
-
 etc...
 
 
