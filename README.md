@@ -9,7 +9,7 @@ To see the app in action, go to [https://zeztron.github.io/travel-site/](https:/
 
 ## Built-with
 * [gulp](https://gulpjs.com/)
-
+  
   * Used to help automate development tasks and to make the development of the website much smoother
 
 * [browsersync](https://browsersync.io/)
@@ -46,7 +46,7 @@ git clone https://github.com/zeztron/travel-site.git
 ```sh
 npm install
 ```
-
+ 
 or
 
 ```sh
