@@ -547,6 +547,8 @@ a {
   text-decoration: none;
   padding: .75rem 1.2rem;
   display: inline-block;
+  border: none;
+  border-radius: 20px;
 }
 
 .btn--orange {
@@ -564,6 +566,11 @@ a {
   }
   }
 
+.btn--get-in-touch {
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
+  }
+
 .wrapper {
   overflow: hidden;
   padding-left: 18px;
@@ -572,6 +579,10 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.wrapper--b-padding {
+    padding-bottom: 3px;
+  }
 
 .wrapper--medium {
     max-width: 976px;
@@ -609,7 +620,7 @@ a {
 
 .wrapper .wrapper {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 3px;
   }
 
 .wrapper--b-margin {
@@ -1340,8 +1351,10 @@ edit gulp/templates/sprite.css */
     text-decoration: none;
     font-weight: 300;
     display: block;
-    padding: 5px 8px;
+    padding: 7px 10px;
     font-size: .8rem;
+    -webkit-box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, .5);
     background-color: rgba(47,85,114, .5);
   }
 
