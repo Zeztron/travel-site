@@ -7,8 +7,34 @@
 ## Live Demo
 To see the app in action, go to [https://zeztron.github.io/travel-site/](https://zeztron.github.io/travel-site/)
 
-## Technical Features
-(editing in-progress)
+## Built-with
+* [gulp](https://gulpjs.com/)
+
+  * Used to help automate development tasks and to make the development of the website much smoother
+
+* [browsersync](https://browsersync.io/)
+  
+  * This helped tremendously with cross-browser testing the website and automatic refresh when making changes to the code
+
+* [webpack](https://webpack.js.org/)
+
+  * Used to bundle javascript files for use in browser.
+
+* [postcss](https://postcss.org/)
+
+  * Used to automate CSS operations and organize CSS architecture.
+
+* [babel](https://babeljs.io/)
+
+  * Used to convert ES6 to ES5 for cross-browser functionality.
+
+* [jquery](https://jquery.com/)
+
+  * Used to target specific css classes and implement functionality like smooth scrolling.
+
+* [waypoints](http://imakewebthings.com/waypoints/)
+
+  * This was used to help trigger a function when scrolling to a specific element on the page.
 
 ## Getting Started
 Feel free to clone this repository
@@ -26,18 +52,5 @@ or
 ```sh
 yarn install
 ```
-
-## Built-with
-* [gulp](https://gulpjs.com/)
-* [browsersync](https://browsersync.io/)
-* [webpack](https://webpack.js.org/)
-* [postcss](https://postcss.org/)
-* [babel](https://babeljs.io/)
-* [jquery](https://jquery.com/)
-* [waypoints](http://imakewebthings.com/waypoints/)
-etc...
-
-
-
 
 #### [MIT](./LICENSE)
