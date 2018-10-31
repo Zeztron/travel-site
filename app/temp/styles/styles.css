@@ -1148,13 +1148,45 @@ edit gulp/templates/sprite.css */
 
 .site-header__menu-icon {
     width: 20px;
-    height: 20px;
-    background-color: #fff;
+    height: 19px;
     position: absolute;
     z-index: 10;
     top: 10px;
     right: 10px;
   }
+
+.site-header__menu-icon::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #fff;
+      -webkit-transform-origin: 0 0;
+              transform-origin: 0 0;
+    }
+
+.site-header__menu-icon__middle {
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #fff;
+    }
+
+.site-header__menu-icon::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 20px;
+      height: 3px;
+      background-color: #fff;
+      -webkit-transform-origin: 0 100%;
+              transform-origin: 0 100%;
+    }
 
 @media (min-width: 800px) {
 
@@ -1162,6 +1194,16 @@ edit gulp/templates/sprite.css */
       display: none
   }
   }
+
+.site-header__menu-icon--close-x::before {
+      -webkit-transform: rotate(45deg) scaleX(1.25);
+              transform: rotate(45deg) scaleX(1.25);
+    }
+
+.site-header__menu-icon--close-x::after {
+      -webkit-transform: rotate(-45deg) scaleX(1.25);
+              transform: rotate(-45deg) scaleX(1.25);
+    }
 
 .site-header__menu-content {
     opacity: 0;
